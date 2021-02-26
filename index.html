@@ -3,15 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title>About Yvonne</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+      <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Yvonne</h1>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
+        Noice Website      </a>
+    </div>
+  </nav>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=fcZXfoB2f70">Roll</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.youtube.com/watch?v=jvkUXT0pMYE">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+  
+
+  <h1>This is my 'About' page!</h1>
 <br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="Yvonne">
 
-  <p>An aspiring data analyst who really likes learning new things about the world.</p>
-  <p>A sun Aries, rising Sagittarius, moon Virgo. :)</p>
+  
 
   <ul>
     <li><strong>Email:</strong><a href="#">yvonne.nhat.thao.tran@gmail.com</a></li>
@@ -56,6 +81,39 @@
       <td>Mass Effect: Andromeda</td>
     </tr>
   </table>
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#fat">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#mdo">Hobbies</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#one">About Me</a></li>
+          <li><a class="dropdown-item" href="#two">Hobbies</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#three">three</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+    <h4 id="fat">About Me</h4>
+    <p>I'm an aspiring data analyst who really likes learning new things about the world. A little bit about the non-professional side of me, but I'm a noob at astrology. I'm a sun Aries, rising Sagittarius, moon Virgo. :)</p>
+    <h4 id="mdo">Hobbies</h4>
+    <p>I love playing the piano, the guitar, the ukulele, and I barely know how to play the violin but it's passing. My favorite pass times are reading and writing, eating, sleeping, and playing games, as you can observe from the not-so-extensive table of things I like to do.</p>
+  </div>
+  <!-- Just an image -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>

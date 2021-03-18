@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>About Yvonne</title>
+  <!-- Bootstrap site: https://getbootstrap.com/docs/5.0/components/dropdowns/  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/440px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
+        Noice Website      </a>
+    </div>
+  </nav>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://127.0.0.1:5500/edu.html">Education</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://127.0.0.1:5500/hobbies.html">Hobbies</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+  
+  <div class="container">
+    
+    
+    <div class="jumbotron">
+    <h2 class="display-4">My Path to Education</h2>
+    </br>
+    </br>
+    </br>
+    <p>Hello and welcome to my Education page! A little bit about me and my relationship to education in general: There's so much to learn about the world. It's impossible too know everything, and yet as humans living in a world where there is an endless amount of information, it's our job
+        to expand our horizons, to learn as much as possible, and continue to progress from our current state, to always seek for better. On this page, I do have institutions in which I obtained official education, but these are just institutions. These are formal and more credible forms of
+        education. Education can go beyond these institutions. It's my belief that progression of knowledge beyond these institutions is just as important as receiving knowedge from them. 
+    </br>
+    </br>   
+    The Bottom Line: It's always my goal to learn as much as I can.
+    </p>
+    <!-- be sure to have a height set and overflow-y: scroll; applied to i t—alongside a tabindex="0" -->
+    <div id="list-example" class="list-group container">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">High School</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">University</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Continued Education</a>
+      </div>
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      </br>
+      </br>
+        <h4 id="list-item-1">High School</h4>
+        <p>Since the age of 5, I had been studying classical piano with a private teacher. Because I had so much experience in piano, and because I was gifted with an amazing teacher, I played very well. So well, in fact, that I was accepted to an art school in middle school. This art school went from grade 
+            7 to grade 12, and that is why I'm including this in my High School education. Orange County School of the Arts, better known as OCSA, is a charter school that excels in all art forms. Because I was accepted into the Piano Conservatory, I participated in piano academia every day, except Friday, 
+            after general high school studies. While it was very intensive, I'm very appreciative of the experience because I learned things that many other people are not fortunate enough to learn. The diverse and supportive environment promoted growth, individuality, and communication. It was an amazing 5 years 
+            of my attendance, and I am very fortunate to have graduated from this amazing school.
+        </p>
+        <h4 id="list-item-2">University</h4>
+        <p>Upon graduating from OCSA, I was accepted into University of California, also known as UCR, as a Neuroscience Major. You may be confused, since my resume displays a BA in Economics, not a BA in Neuroscience. But I'll explain. My parents always had their dream of me becoming a Doctor. Before I had matured, 
+            I followed their dream. It was only when I was nearly halfway with my Neuroscience degree when I realized that this was not my dream, but theirs. I didn't want to become a doctor. After taking an Economics course, I fell in love with the graphs, the numbers, and the entire field. Every aspect of it. So then
+            I pursued Economics, and finished with a BA. Doing this made me learn so much about myself, my capabilities, and how far I could go with what I loved doing. I now found a new passion, and graduated in 4 years, on June 2020.
+        </p>
+        <h4 id="list-item-3">Continued Education</h4>
+        <p>After graduating from UCR, I was thrown into the terrifying waters that is the real world. In other words, the workforce. It was a scary time, especially because of the sudden news of the pandemic, and many other scary events that happened around us. It was a time of uncertainty.  
+            It's difficult enough to find work after engaging yourself in the university lifestyle. I knew I needed to step up my game if I wanted to my noticed by the workforce. And I already knew I excelled in data analytics. I only lacked the tools to get where I wanted: the programming 
+            experience that most data analyst positions required. This is where my continued education comes in. I decided to take the initiative to enroll myself in UCI's Division of Continued Education for Data Analytics. It was a scary step because of how pricey the program seemed. On top of that, 
+            I had no prior knowledge of programming other than using Stata, a basic software used mainly for statistics and basic data science. This was an intensive program -- a bootcamp actually. But the bootcamp would not only give me the certification of Data Analyst, but it would also teach me many 
+            different programming tools and languages, such as Advanced Excel (VBA), Python, SQL, MongoDB, HTML and CSS, Javascript, and so much more. 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>
